@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import "./App.css";
 import authService from "./appwrite/auth";
 import { login, logout } from "./store/authSlice";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import { Header, Footer } from "./components";
+import { Outlet } from "react-router-dom";
 
 function App() {
   const [loading, setLoding] = useState(true);
@@ -28,7 +28,7 @@ function App() {
         <Header />
         <main>
           TODO:
-          {/* <Outlet /> */}
+          <Outlet />
         </main>
         <Footer />
       </div>
