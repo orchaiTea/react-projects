@@ -13,3 +13,11 @@ Each click on the counter button, the display will be incremented by one value a
 2. A background Changer
 
 Click on the provided below buttons to change the background color of the webpage.
+
+3. A blogging WebApp
+
+This is a fullstack webapp with react and appwrite backend(\In future it will have it's own repo with many more feature's. )\.
+
+4. Password Generator
+
+To let you choose a strong password with ability to customise it with numbers, charaters and the range of the password.
